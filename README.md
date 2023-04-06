@@ -7,15 +7,16 @@ Datasets are obtained from Kaggle.
 4. IEEE-CIS Fraud Detection [ https://www.kaggle.com/competitions/ieee-fraud-detection/data ]  
 For now, I just write a project on Credit Card Fraud Detection, because the dataset contains numbers and there is no need to feature selection and data encoding. 
 
-### Challanges and Notes
-* In this project, you have to know Datasets are imbalanced in both classifications. Normally, the classification classes need to have a nearly 50-50 ratio. If classification classes are imbalanced the main problem is you will get high accuracy score on majority class prediction but poor performance on the detection of minority class(in this case, is_fraud). So, you need to understand undersampling, oversampling and mix sampling.
-* Another challenge is hyperparameter tuning and long training time. For testing purposes, I use mainly the undersampling dataset that is modified by NearMiss. 
+
+### Challenges and Notes
+* In this project, you have to know Datasets are imbalanced in both classifications. Normally, the classification classes need to have a nearly 50-50 ratio. If classification classes are imbalanced, the main problem is you will get high accuracy score on majority class prediction but poor performance on the detection of minority class(in this case, is_fraud). So, you need to understand undersampling, oversampling and mix sampling.
+* Another challenge is hyperparameter tuning and long training time. For testing purposes, I use mainly the undersampling dataset that is modified by Near Miss. 
 
 ### Finding 
-* I found oversampling data using SMOTE is quite good. Stacking and ANN(Tensorflow DNN) models show nearly 99% accurate results and No False Negatives on the testing dataset. 
-* Undersampling data tends to overfit and sometimes it is underfitting due to low dataset.
+* I found oversampling data using SMOTE is quite good. Stacking and ANN(TensorFlow DNN) models show nearly 99% accurate results and No False Negatives on the testing dataset. 
+* Undersampling data tends to overfit, and sometimes it is underfitting due to a low dataset.
 
 ### Further Study 
 * try to test other datasets (2, 3, 4).
 * Run tests on oversampling datasets and models.
-* Add LSTM models because there is a time frame. 
+* Add LSTM models because there is a time frame.
