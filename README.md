@@ -5,7 +5,8 @@ Datasets are obtained from Kaggle.
 2. [Fraud e-commerce ](https://www.kaggle.com/datasets/vbinh002/fraud-ecommerce )
 3. [Credit Card Transactions Fraud Detection Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 4. [IEEE-CIS Fraud Detection]( https://www.kaggle.com/competitions/ieee-fraud-detection/data )  
-For now, I just write a project on Credit Card Fraud Detection, because the dataset contains numbers and there is no need to feature selection and data encoding.   
+For now, I just write a project on Credit Card Fraud Detection, because the dataset contains numbers and there is no need to feature selection and data encoding.     
+In this project, there are a total of 20 Machine Learning Models, 1 Stacking model, 2 ANN(TensorFlow DNN) models and 1 CNN models.
 There are example notebooks from Kaggle. If you want to know further details and try something, you can read them.   
 
 ### Challenges and Notes
