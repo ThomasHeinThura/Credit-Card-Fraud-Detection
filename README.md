@@ -6,6 +6,7 @@ Datasets are obtained from Kaggle.
 3. [Credit Card Transactions Fraud Detection Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection)
 4. [IEEE-CIS Fraud Detection]( https://www.kaggle.com/competitions/ieee-fraud-detection/data )  
 For now, I just write a project on Credit Card Fraud Detection, because the dataset contains numbers and there is no need to feature selection and data encoding.   
+There are example notebooks from Kaggle. If you want to know further details and try something, you can read them.   
 
 ### Challenges and Notes
 * In this project, you have to know Datasets are imbalanced in both classifications. Normally, the classification classes need to have a nearly 50-50 ratio. If classification classes are imbalanced, the main problem is you will get high accuracy score on majority class prediction but poor performance on the detection of minority class(in this case, is_fraud). So, you need to understand undersampling, oversampling and mix sampling.
