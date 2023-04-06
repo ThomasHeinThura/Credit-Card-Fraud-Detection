@@ -14,8 +14,12 @@ For now, I just write a project on Credit Card Fraud Detection, because the data
 ### Finding 
 * I found oversampling data using SMOTE is quite good. Stacking and ANN(TensorFlow DNN) models show nearly 99% accurate results and No False Negatives on the testing dataset. 
 * Undersampling data tends to overfit, and sometimes it is underfitting due to a low dataset.
-* Output on Stacking + SMOTE 
-* [output.png](output.png)
+* Confusion matrix on Stacking + SMOTE  
+![confusion matrix](output.png)
+* Confusion matrix and Learning curve on DNN + SMOTE
+![confusion matrix](output_dnn.png)
+![learning curve_accuracy](learning_curve_dnn.png)
+![learning_curve_loss](learning_curve_loss.png)
 
 ### Further Study 
 * try to test other datasets (2, 3, 4).
