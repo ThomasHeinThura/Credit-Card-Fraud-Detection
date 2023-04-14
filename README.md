@@ -22,6 +22,8 @@ There are example notebooks from Kaggle. If you want to know further details and
 ![confusion matrix](output_dnn.png)
 ![learning curve_accuracy](learning_curve_dnn.png)
 ![learning_curve_loss](learning_curve_loss.png)
+* barplot of f1_score across the models + Nearmiss
+![barplot of f1_score](barplot.png)
 
 ### Further Study 
 * try to test other datasets (2, 3, 4).
